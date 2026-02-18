@@ -19,7 +19,21 @@ Formatting may be inconsistent from source
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Life Management System</title>
     <script src="https://cdn.tailwindcss.com"></script>
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#4f46e5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="./icon-192.png">
+
 </head>
+    <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
 <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen p-6">
     <div class="max-w-6xl mx-auto">
         <div class="bg-white rounded-xl shadow-lg p-8 mb-6">
